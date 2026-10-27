@@ -10,8 +10,8 @@ Free to use ([licence](LICENSE.md)). Rhino 8 for Windows, service release 8.35 o
 
 ## Install
 
-1. In Rhino, run `PackageManager` and search for "parametric blocks".
-2. Select **parametric-blocks** and click **Install**.
+1. In Rhino, run `PackageManager` and search for `parametric-blocks` (with the hyphen).
+2. Select it and click **Install**.
 3. Restart Rhino and run `PBManager`.
 
 Updates appear in the Package Manager too.
