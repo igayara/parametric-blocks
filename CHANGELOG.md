@@ -1,5 +1,10 @@
 # Release notes
 
+## 0.1.1
+
+- **Undo works for changes made in the Properties panel.** Each change is one Undo step. Before, Undo skipped them, and undoing earlier steps (a copy, a delete) could leave blocks in the wrong state.
+- The Package Manager now finds the plug-in when you search for "parametric blocks".
+
 ## 0.1.0
 
 Initial release:
