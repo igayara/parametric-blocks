@@ -18,7 +18,7 @@ Updates appear in the Package Manager too.
 
 ## Getting started
 
-1. `PBManager` opens the Parametric Blocks panel. Import a definition: a Grasshopper file prepared as described in [Make your own](#make-your-own).
+1. `PBManager` opens the Parametric Blocks panel. Import a definition: try the one in [`samples`](samples).
 2. `PBInsert` places a block: choose the definition, set its parameters, pick a point.
 3. Select blocks, then use the **Parametric Block** page of the Properties panel to change their parameters.
 4. Double-click a block with geometry parameters to edit that geometry with any Rhino tool. **Done** applies it as one Undo step; `PBExtract` copies that geometry back into the model.

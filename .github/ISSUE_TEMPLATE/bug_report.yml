@@ -15,7 +15,7 @@ body:
     id: steps
     attributes:
       label: Steps to reproduce
-      placeholder: "1. Import the attached definition and insert it\n2. Double-click it\n3. ..."
+      placeholder: "1. Import the Bookshelf sample and insert it\n2. Set Width to 120 in Properties\n3. ..."
     validations:
       required: true
   - type: input

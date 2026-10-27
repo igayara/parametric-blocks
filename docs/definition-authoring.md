@@ -10,7 +10,7 @@ A Parametric Block Definition is a Grasshopper 1 definition (.gh) with three nam
 
 Each group must appear only once. Group names are matched ignoring case and surrounding spaces.
 
-A complete definition at a glance (the bookshelf used in the examples below):
+A complete definition at a glance (the bookshelf used in the examples below, [`samples/Bookshelf.gh`](../samples/Bookshelf.gh)):
 
 ```
 PB:META   Panel   name: Bookshelf
