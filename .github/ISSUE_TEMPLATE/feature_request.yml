@@ -1,0 +1,11 @@
+name: Idea or request
+description: Something Parametric Blocks should do
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to do, and why?
+      description: Describe the task you're trying to get done; screenshots or sketches help.
+    validations:
+      required: true

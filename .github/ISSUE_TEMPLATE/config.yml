@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question about authoring a definition
+    url: https://github.com/igayara/parametric-blocks/blob/main/docs/definition-authoring.md
+    about: Start with the authoring guide.

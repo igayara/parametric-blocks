@@ -1,0 +1,45 @@
+name: Bug report
+description: Something doesn't work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time. A file that shows the problem is the fastest way to a fix.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Import the attached definition and insert it\n2. Double-click it\n3. ..."
+    validations:
+      required: true
+  - type: input
+    id: rhino
+    attributes:
+      label: Rhino version
+      description: Help › About Rhinoceros, e.g. 8.35.26251.13001
+    validations:
+      required: true
+  - type: input
+    id: plugin
+    attributes:
+      label: Parametric Blocks version
+      description: The first line printed by the PBInfo command
+    validations:
+      required: true
+  - type: textarea
+    id: pbinfo
+    attributes:
+      label: PBInfo output (optional)
+      description: Run PBInfo in the file that shows the problem and paste the command-line output.
+      render: text
+  - type: textarea
+    id: files
+    attributes:
+      label: Files (optional)
+      description: Drag a small .3dm or .gh here (or a link). Only share what you're allowed to.
